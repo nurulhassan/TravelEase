@@ -1,0 +1,29 @@
+
+.navbar-right {
+	margin-right: 2vw;
+}
+.navbar {
+	background-color: white;
+	width: 100vw;
+	height: auto;
+	position: sticky;
+	border-bottom: 2px solid black;
+	min-height: 0;
+	border-radius: 0px;
+}
+
+#map {
+	height: 92vh;
+	width: 100%;
+}
+
+#source, #destination {
+	width: 400px;
+}
+
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
